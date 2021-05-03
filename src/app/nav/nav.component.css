@@ -1,0 +1,137 @@
+/*Start Tool Box */
+
+.option-box {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  z-index: 9999;
+}
+
+.option-box .color-option {
+  float: left;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  border-radius: 30%;
+  margin-left: -200px;
+}
+
+.option-box .color-option li {
+  width: 30px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 3px;
+  cursor: pointer;
+  border-radius: 30%;
+}
+
+.option-box .gear-check {
+  padding: 5px;
+  color: #fff;
+  border-radius: 25%;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.option-box .gear-check:hover {
+  opacity: 1;
+}
+
+/*End Tool Box */
+
+/* Main navbar */
+
+.navbar {
+  min-height: 70px;
+}
+
+/*brand name of navbar */
+
+.navbar-inverse .navbar-brand {
+  color: #bbb;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+/*mobile menu button */
+
+.navbar-toggle {
+  margin-top: 18px;
+}
+
+/*Non Active Link */
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #bbb;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 16px;
+}
+
+/*dropdown menu of navbar */
+
+.navbar-right .dropdown-menu {
+  left: 0;
+  background: #333;
+}
+
+/*downdown menu links of navbar */
+.dropdown-menu > li > a {
+  color: #fff;
+  padding: 6px 20px;
+}
+
+.dropdown-menu .divider {
+  background-color: #871818;
+}
+
+/*End Navbar */
+
+/* Start Default Theme*/
+
+/*Brand Name Navbar*/
+.navbar-inverse .navbar-brand span,
+/*Start Section About*/
+.about h1 span,
+/*Start Testimonials*/
+.testimonials span,
+/*Start Footer*/
+.footer h3,
+.footer .copyright span {
+  color: #e41b17;
+}
+
+/*active link of navbar link */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+/*downdown menu links of navbar */
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+/*Start Carousal*/
+.carousel-indicators .active,
+/*Start Tool Box*/
+.option-box .gear-check {
+  background-color: #e41b17;
+}
+
+/*Start Tool Box */
+.option-box .color-option,
+/*Start Testimonials*/
+.testimonials .carousel-indicators li.active {
+  border: 2px solid #e41b17;
+}
+
+/*dropdown menu of navbar */
+.dropdown-menu {
+  border-top: 3px solid #e41b17;
+}
+
+/* End Default Theme*/
+
+.dropdown-menu > li > a {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}

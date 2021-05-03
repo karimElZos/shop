@@ -1,0 +1,424 @@
+body {
+  padding-top: 70px;
+}
+
+.h1,
+h2,
+h3,
+h4,
+h5,
+.lead {
+  font-family: "Lemonada", cursive;
+}
+
+/********** START OVERWRITING ON BOOTSTRAP ************/
+/*Start Carousal */
+
+.carousel-caption {
+  bottom: 70px;
+  background: rgba(3, 3, 3, 0.3);
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.carousel-indicators li {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #eee;
+}
+
+.carousel-indicators .active {
+  height: 17px;
+  width: 17px;
+}
+
+.carousel-inner > .item > img {
+  width: 100%;
+}
+
+/*End Carousal */
+
+/*Start Section About */
+
+.about .lead {
+  color: #888;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.about h1 {
+  font-weight: bold;
+}
+
+/*End Section About */
+
+/*Start Section Features */
+
+.features {
+  background-color: #eee;
+}
+
+.features .feat {
+  margin-bottom: 50px;
+}
+
+.features .feat p {
+  line-height: 2em;
+}
+
+.features .feat span.glyphicon {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+/*End Section Features  */
+
+/*Start Testimonials  Section */
+
+.testimonials .h1 {
+  font-weight: bold;
+}
+
+.testimonials .lead {
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+
+.testimonials span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.testimonials .carousel-inner {
+  min-height: 160px;
+}
+
+.testimonials .carousel-indicators {
+  position: static;
+  width: 100%;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+.testimonials .carousel-indicators li {
+  text-indent: 0;
+  width: 80px;
+  height: 80px;
+  opacity: 0.4;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.testimonials .carousel-indicators li.active {
+  opacity: 1;
+}
+
+.testimonials .carousel-indicators li img {
+  max-width: 100%;
+}
+
+/*End Testimonials  Section */
+
+/*Start Section Price Table */
+
+.price-table {
+  background-color: #eee;
+}
+
+.price-table .h1 {
+  font-weight: bold;
+}
+
+.price-table .price-box {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.price-table .price-box h2 {
+  margin: 5px 0 15px;
+  font-size: 38px;
+}
+
+.price-table .price-box:hover p {
+  -webkit-transform: scale(1.1, 1.1) rotate(360deg);
+  -moz-transform: scale(1.1, 1.1) rotate(360deg);
+  -o-transform: scale(1.1, 1.1) rotate(360deg);
+  transform: scale(1.1, 1.1) rotate(360deg);
+  border: 2px solid #dfdfdf;
+}
+
+.price-table .price-box p {
+  font-size: 35px;
+  font-weight: bold;
+  color: #666;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  line-height: 100px;
+  border: 2px solid #fff;
+}
+
+.price-table .price-box ul {
+  line-height: 250%;
+  font-size: 18px;
+}
+
+.price-table .price-box a {
+  margin-bottom: 5px;
+}
+
+/*End Section Price Table */
+
+/*Start Section Our Team */
+
+.our-team {
+  background: url("../../assets/imgs/4444.jpg") no-repeat center center fixed;
+  min-height: 600px;
+}
+
+.our-team .team {
+  background: rgba(2, 2, 2, 0.8);
+  color: #fff;
+  min-height: 600px;
+}
+
+.our-team .team .person img {
+  width: 100%;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.our-team .team .person {
+  margin-bottom: 40px;
+}
+
+/*End Section Our Team */
+
+/*Start Subscribe Section */
+
+.subscribe {
+  background-color: #eee;
+}
+
+.subscribe .h1 {
+  color: #888;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.subscribe p {
+  margin-bottom: 30px;
+}
+
+.subscribe .form-control {
+  border-radius: 0;
+  margin-right: -5px;
+  width: 300px;
+}
+.subscribe .btn {
+  border-radius: 0;
+}
+
+/*End Subscribe Section */
+
+/*Start Section Statistics */
+
+.statistics {
+  background: url("../../assets/imgs/11.jpg") no-repeat center center fixed;
+  min-height: 300px;
+}
+
+.statistics .data {
+  color: #b6b5b5;
+  background-color: rgba(2, 2, 2, 0.8);
+  min-height: 300px;
+}
+
+.statistics .stats {
+  margin-bottom: 50px;
+}
+
+.statistics .stats:hover {
+  color: #fff;
+}
+
+.statistics p {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.statistics span {
+  font-size: 18px;
+}
+
+/*End Section Statistics */
+
+/*Start Section Our Skills*/
+.our-skills h3 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.our-skills .progress {
+  height: 36px;
+}
+
+.our-skills .progress-bar {
+  line-height: 36px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  text-indent: 10px;
+}
+
+/*End Section Our Skills*/
+
+/*Start Section Contact US */
+
+.contact-us {
+  background: url("../../assets/imgs/33.jpg") no-repeat center center fixed;
+  min-height: 300px;
+}
+
+.contact-us .fields {
+  background: rgba(9, 9, 9, 0.9);
+  min-height: 300px;
+  color: #ddd;
+}
+
+.contact-us p {
+  margin-bottom: 40px;
+}
+
+.contact-us textarea {
+  height: 118px;
+}
+
+.contact-us input[type="text"],
+.contact-us textarea {
+  background: rgba(82, 78, 78, 0.5);
+  color: #fff;
+  border: none;
+}
+
+/*End Section Contact US */
+
+/*Start Section Our Clients*/
+
+.our-clients {
+  background-color: #eee;
+}
+
+.our-clients img {
+  opacity: 0.4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-height: 40px;
+  max-width: 126px;
+}
+.our-clients img:hover {
+  opacity: 1;
+}
+
+/*End Section Our Clients*/
+
+/*Start SCroll To Top */
+
+#scroll-top {
+  width: 50px;
+  height: 40px;
+  color: #ddd;
+  background-color: #272727;
+  text-align: center;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 9999;
+  display: none;
+  cursor: pointer;
+}
+#scroll-top:hover {
+  background-color: #444;
+}
+
+/*End SCroll To Top */
+
+/*Start Our Grouping System*/
+
+.contact-us,
+.statistics,
+.our-team {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.features .h1,
+.testimonials .h1,
+.price-table .h1,
+.our-team .team .h1,
+.statistics .h1,
+.our-skills .h1 {
+  margin-bottom: 50px;
+}
+
+.testimonials .carousel-indicators li,
+.price-table .price-box p,
+.statistics .stats,
+.our-clients img,
+.footer .social-list li {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.about,
+.features,
+.testimonials,
+.price-table,
+.our-team .team,
+.subscribe,
+.statistics .data,
+.our-skills,
+.contact-us .fields,
+.our-clients {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/*End Our Grouping System*/
+
+/*Smart Phones & Tablets*/
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .carousel-indicators li {
+    display: none;
+  }
+
+  .subscribe .form-control {
+    margin: 20px auto;
+  }
+}
+
+/*Small Screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/*Medium Screen*/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Large Screen */
+@media (min-width: 1200px) {
+}
